@@ -34,24 +34,24 @@ Endpoint: http://localhost/web2/TPE WEB API REST-FULL/api/peliculas/:ID
 Obtener subrecurso de una Pelicula por ID (GET):
 Subrecursos posibles: Titulo, Anio, Genero ,Id_Director.
 
-Endpoint: localhost/web2/TPE WEB API REST-FULL/api/peliculas/:subrecurso
+Endpoint: localhost/web2/TPEWEBAPIREST-FULL/api/peliculas/:subrecurso
 
 
 Crear una Nueva Pelicula (POST):
 
-Endpoint: localhost/web2/TPE WEB API REST-FULL/api/peliculas
+Endpoint: localhost/web2/TPEWEBAPIREST-FULL/api/peliculas
 
 Ejemplo de solicitud POST en el body: { "Titulo": "Titulo Nuevo", "Anio": "2023", "Genero": "Terror", "Id_Director": 1 }
 
 
 Actualizar una Pelicula por ID (PUT):
 
-Endpoint: localhost/web2/TPE WEB API REST-FULL/api/peliculas/:ID
+Endpoint: localhost/web2/TPEWEBAPIREST-FULL/api/peliculas/:ID
 
 Ejemplo de solicitud PUT en el body: { "Titulo": "Actualizo Titulo", "Anio": "2024", "Genero": "Accion", "Id_Director": 3 }
 
 
 Eliminar una Pelicula por ID (DELETE):
 
-Endpoint: localhost/web2/TPE WEB API REST-FULL/api/peliculas/:ID
+Endpoint: localhost/web2/TPEWEBAPIREST-FULL/api/peliculas/:ID
 
