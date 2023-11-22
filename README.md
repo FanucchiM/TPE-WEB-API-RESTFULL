@@ -53,14 +53,14 @@ Ejemplo de solicitud PUT en el body: { "Titulo": "Actualizo Titulo", "Anio": "20
 
 
 Para la tabla de directores:
-Obtener todos las peliculas(GET)
+Obtener todos los directores(GET)
 Endpoint: localhost/web2/TPE WEB API REST-FULL/api/director/
 
 
-Obtener todos las directores (GET) ordenados por un campo y en cierta direccion (Opcional)
-Posibles sort_by: Titulo, Anio, Genero ,Id_Director..
+Obtener todos los directores (GET) ordenados por un campo y en cierta direccion (Opcional)
+Posibles sort_by: Nombre, Edad, CantidadDepeliculas
 
-sort_by: para el campo. sort_dir: para la dirección (asc o desc). Ejemplo de uso: localhost/web2/TPE WEB API REST-FULL/api/peliculas?sort=Anio&order=asc
+sort_by: para el campo. sort_dir: para la dirección (asc o desc). Ejemplo de uso: localhost/web2/TPE WEB API REST-FULL/api/director?sort=Edad&order=asc
 
 
 Obtener Director por ID (GET):
@@ -72,9 +72,9 @@ Subrecursos posibles: Nombre, Edad, CantidadDePeliculas.
 
 Endpoint: localhost/web2/TPEWEBAPIREST-FULL/api/director/:subrecurso
 
-Listar Peliculas Filtrados por cualquier campo (GET):(Opcional)
+Listar Directores Filtrados por cualquier campo (GET):(Opcional)
 Posibles filter_key: Titulo, Anio, Genero,Id_Director. filter_key: para el campo. filter_value: para su valor 
-Ejemplo de uso: http://localhost/CARPETA/api/peliculas?filter_key=Genero&filter_value=Drama (Por algun motivo tenemos mal el URL  y no sabemos que es)
+Ejemplo de uso: http://localhost/CARPETA/api/director?filter_key=CantidadDePeliculas&filter_value=10 (Por algun motivo tenemos mal el URL  y no sabemos que es)
 
 Crear un Nuevo director (POST):
 
